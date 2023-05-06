@@ -1,4 +1,4 @@
-package http
+package rpc
 
 import (
     "crypto/tls"
@@ -42,5 +42,3 @@ func Default(url string, body interface{}) []byte {
     return rsp.Body()
 
 }
-
-

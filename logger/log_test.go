@@ -49,3 +49,5 @@ func TestLogger(t *testing.T) {
 	level = 0
 	filter = nil
 }
+
+//
